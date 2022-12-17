@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(140, 158, 159);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.score{
+    padding: 10px 8px;
+    background-color: rgba(0, 255, 255, 0.261);
+    background-size: 20px;
+    
+}
+
+h2{
+    font: 300;
+    color: rgb(226, 208, 43);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px 0 lightgrey;
+}
